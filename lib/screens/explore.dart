@@ -43,7 +43,7 @@ class _ExplorePageState extends State<ExplorePage> {
                   zoomControlsEnabled: false,
                   myLocationEnabled: true,
                   myLocationButtonEnabled: true,
-                  markers: Set<Marker>.of(model.marker!.values),
+                  // markers: Set<Marker>.of(model.marker!.values),
                   onMapCreated: (GoogleMapController controller) {
                     _controller.complete(controller);
                   },
